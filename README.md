@@ -1,0 +1,2 @@
+# Unreachable Code in Julia Function
+This repository demonstrates an example of unreachable code in a Julia function.  The code contains a conditional statement where the `println` statement and the final `return 0` statement are unreachable because of the previous return statement inside the if and else block.  The solution shows how to remove this unnecessary and potentially confusing code.  This example helps to improve code readability and maintainability by removing redundant statements and highlighting the potential issue of dead code.
